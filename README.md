@@ -19,3 +19,10 @@
 * THEN that note appears in the right-hand column and a "New Note" button appears in the navigation
 * WHEN I click on the "New Note" button in the navigation at the top of the page
 * THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
+
+# Screenshots
+
+<img width="1512" alt="Screenshot 2024-01-22 at 9 16 46 PM" src="https://github.com/mfhooks88/note-taker/assets/152635274/6055698e-1797-4d36-9f3e-a11264eda743">
+
+<img width="1512" alt="Screenshot 2024-01-22 at 9 18 05 PM" src="https://github.com/mfhooks88/note-taker/assets/152635274/c9bd5ec5-77de-41fc-b9f5-22473ef4cbc8">
+
