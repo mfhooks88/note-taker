@@ -20,6 +20,10 @@
 * WHEN I click on the "New Note" button in the navigation at the top of the page
 * THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
 
+# Additional Info
+* Used prior class materials for reference. Also utilized W3 Schools and received help during tutoring session.
+* This was a fun project utilizing materials learned from previous classes
+
 # Screenshots
 
 <img width="1512" alt="Screenshot 2024-01-22 at 9 16 46 PM" src="https://github.com/mfhooks88/note-taker/assets/152635274/6055698e-1797-4d36-9f3e-a11264eda743">
