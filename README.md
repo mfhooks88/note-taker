@@ -23,6 +23,7 @@
 # Additional Info
 * Used prior class materials for reference. Also utilized W3 Schools and received help during tutoring session.
 * This was a fun project utilizing materials learned from previous classes
+* Help was provided during tutoring session and also from AskBCS rep as well
 
 # Screenshots
 
