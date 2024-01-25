@@ -1,5 +1,3 @@
-const baseUrl = 'https://fascinating-biscotti-d04555.netlify.app';
-
 let noteForm;
 let noteTitle;
 let noteText;
@@ -30,33 +28,8 @@ const hide = (elem) => {
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
-// const getNotes = () =>
-//   fetch('/api/notes', {
-//     method: 'GET',
-//     headers: {
-//       'Content-Type': 'application/json'
-//     }
-//   });
-
-// const saveNote = (note) =>
-//   fetch('/api/notes', {
-//     method: 'POST',
-//     headers: {
-//       'Content-Type': 'application/json'
-//     },
-//     body: JSON.stringify(note)
-//   });
-
-// const deleteNote = (id) =>
-//   fetch(`/api/notes/${id}`, {
-//     method: 'DELETE',
-//     headers: {
-//       'Content-Type': 'application/json'
-//     }
-//   });
-
 const getNotes = () =>
-  fetch(`${baseUrl}/api/notes`, {
+  fetch('/api/notes', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json'
@@ -64,7 +37,7 @@ const getNotes = () =>
   });
 
 const saveNote = (note) =>
-  fetch(`${baseUrl}/api/notes`, {
+  fetch('/api/notes', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -73,13 +46,12 @@ const saveNote = (note) =>
   });
 
 const deleteNote = (id) =>
-  fetch(`${baseUrl}/api/notes/${id}`, {
+  fetch(`/api/notes/${id}`, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json'
     }
   });
-
 
 const renderActiveNote = () => {
   hide(saveNoteBtn);
