@@ -22,10 +22,14 @@ app.get('/notes', (req, res) => {
 });
 
 app.get('/api/notes', (req, res) => {
-  // Read the db.json file and return all saved notes
-  // help provided during tutoring session
-  const notes = JSON.parse(fs.readFileSync('db.json', 'utf8'));
-  res.json(notes);
+  try {
+    // Read the db.json file and return all saved notes
+    const notes = JSON.parse(fs.readFileSync('db.json', 'utf8'));
+    res.json(notes);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 });
 
 app.post('/api/notes', (req, res) => {
